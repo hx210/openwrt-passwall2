@@ -2,8 +2,8 @@
 # Copyright (C) 2022-2025 xiaorouji
 # Copyright (C) 2026 Openwrt-Passwall Organization
 
-. $IPKG_INSTROOT/lib/functions.sh
-. $IPKG_INSTROOT/lib/functions/service.sh
+. /lib/functions.sh
+. /lib/functions/service.sh
 
 . /usr/share/passwall2/utils.sh
 GLOBAL_ACL_PATH=${TMP_ACL_PATH}/default
